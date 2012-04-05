@@ -9,3 +9,4 @@ Autores
 
 * Rafael Machado
 * Marcelo Tokarnia
+* Wanderson Alves
