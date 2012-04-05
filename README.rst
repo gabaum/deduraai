@@ -8,3 +8,4 @@ Autores
 =======
 
 * Rafael Machado
+* Marcelo Tokarnia
