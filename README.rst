@@ -10,3 +10,4 @@ Autores
 * Rafael Machado
 * Marcelo Tokarnia
 * Wanderson Alves
+* André Battagello
