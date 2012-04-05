@@ -19,6 +19,7 @@ Session.vim
 ###Unix.gitignore
 #-----------------------#
 .db-journal
+.stackdump
 #-----------------------#
 
 

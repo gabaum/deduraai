@@ -11,3 +11,4 @@ Autores
 * Marcelo Tokarnia
 * Wanderson Alves
 * André Battagello
+* Adrian Shiokawa
