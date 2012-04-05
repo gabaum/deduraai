@@ -9,3 +9,4 @@ Autores
 
 * Rafael Machado
 * Guilherme Victal
+* Marcelo Tokarnia
