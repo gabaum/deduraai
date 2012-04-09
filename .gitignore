@@ -19,6 +19,7 @@ Session.vim
 ###Unix.gitignore
 #-----------------------#
 .db-journal
+.stackdump
 #-----------------------#
 
 
@@ -46,6 +47,7 @@ develop-eggs
 
 # Installer logs
 pip-log.txt
+requirements/src
 
 # Unit test / coverage reports
 .coverage
