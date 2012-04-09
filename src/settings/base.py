@@ -111,7 +111,7 @@ THIRD_PARTY_APPS = (
     'south',
     #'compressor',
     #'mailer',
-
+    'haystack'
 
 )
 
@@ -152,5 +152,10 @@ if 'mailer' in INSTALLED_APPS:
 
 ###############################################
 #EXTRA SETTINGS
+
+#Haystack Settings
+HAYSTACK_SITECONF = 'search_sites'
+HAYSTACK_SEARCH_ENGINE = 'whoosh'
+HAYSTACK_WHOOSH_PATH = os.path.join(os.path.dirname(__file__), 'whoosh_index')
 
 ###############################################
