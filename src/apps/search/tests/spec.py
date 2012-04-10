@@ -11,5 +11,5 @@ class SearchSpec(TestCase):
     """
     def deve_saber_apresentar_a_pagina_principal(self):
         url = '/search/'
-        self.client.get(url)
-        assert_get(url, 'search/search.html')
+        response = self.client.get(url)
+        assert_get(response, 'search/search.html')
