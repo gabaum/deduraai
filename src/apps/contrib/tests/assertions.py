@@ -28,4 +28,8 @@ def assert_get(response, template_used):
 
     """
     assert_equals(response.status_code, 200)
-    assert_equals(response.template_name, template_used)
+    if hasattr(response, 'template_name'):
+        assert_equals(response.template_name, template_used)
+    if hasattr(response, 'templates'):
+        templates = [t.name for t in response.templates]
+        assert template_used in templates
