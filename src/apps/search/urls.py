@@ -1,6 +1,7 @@
-from django.conf.urls.defaults import patterns, url
+from django.conf.urls.defaults import patterns, url, include
 
 
-urlpatterns = patterns('',
+ulrlpatterns = patterns('',
+    (r'^',include('haystack.urls')), #just redirects everything to haystack
 
 )
