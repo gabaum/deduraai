@@ -1,7 +1,13 @@
 from django.conf.urls.defaults import patterns, url, include
+from haystack.views import search_view_factory
+
+from search.forms import SearchForm
 
 
-ulrlpatterns = patterns('',
-    (r'^',include('haystack.urls')), #just redirects everything to haystack
+urlpatterns = patterns('',
+
+        url(r'^',
+            search_view_factory(form_class=SearchForm),
+            name='search'),
 
 )
