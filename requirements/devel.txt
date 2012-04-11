@@ -11,6 +11,7 @@ django-extensions
 django-nose
 pinocchio
 coverage
+django-coverage
 factory_boy
 #twill
 #coverage
