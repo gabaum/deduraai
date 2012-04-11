@@ -17,4 +17,5 @@ urlpatterns = patterns('',
     #(r'^app/', include('app.urls')),
 
     (r'^search/',include('search.urls')),
+    (r'^problems/', include('problems.urls')),
 )
