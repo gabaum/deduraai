@@ -13,3 +13,4 @@ Autores
 * Wanderson Alves
 * André Battagello
 * Adrian Shiokawa
+* Gabriel Dalalio
